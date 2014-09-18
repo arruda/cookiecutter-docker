@@ -11,5 +11,5 @@
 	"data_volume" : "/data",
 	"from_docker": "ubuntu:14.04",
 	"linked_container": "db",
-	"linked_container_port": "5432",
+	"linked_container_port": "5432"
 }

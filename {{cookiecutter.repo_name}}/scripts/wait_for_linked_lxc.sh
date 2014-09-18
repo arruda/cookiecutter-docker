@@ -1,7 +1,7 @@
 
 wait_for_container() {
 	# any linked container that has to be working before anything happen
-	LINK_CONTAINER=${{{ cookiecutter.linked_container|upper }}_PORT}
+	LINK_CONTAINER={% raw %}${{% endraw %}{{ cookiecutter.linked_container|upper }}_PORT}
 	LINKED_CONTAINER_ADDR=${{ cookiecutter.linked_container|upper }}_PORT_{{ cookiecutter.linked_container_port }}_TCP_ADDR
 	LINKED_CONTAINER_PORT=${{ cookiecutter.linked_container|upper }}_PORT_{{ cookiecutter.linked_container_port }}_TCP_PORT
 
