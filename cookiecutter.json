@@ -1,0 +1,15 @@
+{
+	"full_name": "Felipe Arruda Pontes",
+	"email": "contato@arruda.blog.br",
+	"github_username": "arruda",
+	"project_name": "cookiecutter-docker",
+	"repo_name": "simple-docker",
+	"project_short_description": "A cookiecutter template of files that I usually use in my new dockers.",
+	"release_date": "2014-09-19",
+	"year": "2014",
+	"process_run": "my_process.sh",
+	"data_volume" : "/data",
+	"from_docker": "ubuntu:14.04",
+	"linked_container": "db",
+	"linked_container_port": "5432",
+}
