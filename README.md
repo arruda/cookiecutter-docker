@@ -20,6 +20,17 @@ Variables
 
 Check the [cookiecutter.json](cookiecutter.json) file for a list of variables used in this template project.
 
+Usage
+-----
+First you need to install cookiecutter:
+
+    pip install coockiecutter
+
+then you can run it passing this repository:
+
+    coockiecutter https://github.com/arruda/cookiecutter-docker.git
+
+This will ask you what values you want for the variables in your own docker.
 
 LICENSE
 -------
